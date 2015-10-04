@@ -1,0 +1,108 @@
+.pure-menu-list{
+    float: right;
+    font-size: 80%;
+    margin-top: 3px;
+}
+
+.home-menu{
+    background-color: #5c5c5c;
+}
+
+.pure-menu-heading{
+    color: aliceblue;
+}
+
+.pure-menu-link:hover{
+    color: #bed7e8;
+    background: none;
+}
+
+.pure-menu-link{
+    color: aliceblue;
+}
+
+.splash-container {
+    background: #1f8dd6;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 30%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+}
+
+.splash {
+    width: 80%;
+    height: 30%;
+    margin: auto;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    color: azure;
+}
+
+.splash-head{
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    border: 3px solid white;
+    padding: 1em 1.6em;
+    border-radius: 5px;
+    line-height: 0.5em;
+}
+
+.splash-subhead{
+    font-size: 9px;
+}
+
+.pure-menu-link{
+    display: none;
+}
+
+.cada-main{
+    display: inline-block;
+}
+
+.content-wrapper {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background: white;
+}
+
+.footer {
+    background: #111;
+    text-align: center;
+    padding: 1em;
+    color: azure;
+}
+
+.footer a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+@media (min-width: 48em) {
+    .pure-menu-link{
+        display: inline-block;
+    }
+    .splash-head{
+        font-size: 32px;
+    }
+    .splash-subhead{
+        font-size: 16px;
+    }
+    .splash-container{
+        height: 45%;
+    }
+    .content-wrapper{
+        top: 45%;
+    }
+}
