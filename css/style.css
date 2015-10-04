@@ -117,7 +117,7 @@
 }
 
 .appinfo{
-    height 120px;
+
 }
 
 .appicon img{
@@ -126,12 +126,26 @@
 }
 
 .apptitle{
+    font-size: 24px;
     padding-top: 10px;
 }
 
 .appauthor{
     color: #606060;
-    font-size: 80%;
+    font-size: 18px;
+}
+
+.appplat{
+    margin: 20px;
+}
+
+.fa{
+    margin-right: 5px;
+}
+
+.appdesc{
+    margin: 30px 10px 10px;
+    display: none;
 }
 
 @media (min-width: 48em) {
@@ -159,5 +173,8 @@
     }
     .l-box {
         padding: 1em;
-}
+    }
+    .appdesc{
+        display: block;
+    }
 }
