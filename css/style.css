@@ -33,7 +33,7 @@
 }
 
 .splash {
-    width: 80%;
+    width: 100%;
     height: 30%;
     margin: auto;
     position: absolute;
@@ -77,8 +77,13 @@
     background: white;
 }
 
+.appicon{
+    float: left;
+}
+
 .footer {
-    background: #111;
+    width: 100%;
+    background: #5c5c5c;
     text-align: center;
     padding: 1em;
     color: azure;
@@ -87,6 +92,27 @@
 .footer a{
     color: aliceblue;
     text-decoration: none;
+}
+
+.appwrapper{
+    width: 100%;
+    height: 120px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid #adadad;
+}
+
+.appicon{
+    margin: 5px;
+}
+
+.appicon img{
+    height: 110px;
+    border-radius: 5px;
+}
+
+.apptitle{
+    padding-top: 10px;
 }
 
 @media (min-width: 48em) {
@@ -104,5 +130,8 @@
     }
     .content-wrapper{
         top: 45%;
+    }
+    .appwrapper{
+    height: 360px;
     }
 }
