@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.l-box {
+        padding: 0em;
+}
+
 .pure-menu-list{
     float: right;
     font-size: 80%;
@@ -55,7 +59,7 @@
     font-size: 12px;
     text-align: center;
     margin: auto;
-    width: 40%;
+    width: 50%;
     border: 3px solid white;
     padding: 1em 1.6em;
     border-radius: 5px;
@@ -103,13 +107,17 @@
 .appwrapper{
     width: 100%;
     height: 120px;
-    margin: 0px;
+    margin: 10px;
     padding: 0px;
     border-bottom: 1px solid #adadad;
 }
 
 .appicon{
     margin: 5px;
+}
+
+.appinfo{
+    height 120px;
 }
 
 .appicon img{
@@ -119,6 +127,11 @@
 
 .apptitle{
     padding-top: 10px;
+}
+
+.appauthor{
+    color: #606060;
+    font-size: 80%;
 }
 
 @media (min-width: 48em) {
@@ -138,6 +151,13 @@
         top: 45%;
     }
     .appwrapper{
-    height: 360px;
+        height: 360px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
     }
+    .l-box {
+        padding: 1em;
+}
 }
