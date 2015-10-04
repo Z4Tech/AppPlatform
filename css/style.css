@@ -178,6 +178,26 @@ html, button, input, select, textarea,
     display: inline-block;
 }
 
+.content-head {
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+}
+
+.content-upload{
+    margin: auto;
+    width: 60%;
+}
+
+.content-upload a{
+    color: #6a6a6a;
+    text-decoration: none;
+    border-bottom: 1px dashed #6a6a6a;
+}
+
 @media (min-width: 48em) {
     .pure-menu-link{
         display: inline-block;
