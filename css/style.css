@@ -245,6 +245,7 @@ html, button, input, select, textarea,
     .app-link{
     border: none;
     border-radius: none;
+    padding: 0 0 0 0;
     }
     .appdesc{
         height: 95px;
